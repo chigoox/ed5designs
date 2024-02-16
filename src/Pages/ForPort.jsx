@@ -2,7 +2,6 @@ import { Button } from '@nextui-org/react'
 import { motion } from 'framer-motion'
 import React, { useState } from 'react'
 import ForDani from './ForDani'
-import ForChima from './forchima'
 import HERO from '../../public/images/HERO.png'
 import { IoClose, IoInformation } from 'react-icons/io5'
 
