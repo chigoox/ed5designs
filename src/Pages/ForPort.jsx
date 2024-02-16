@@ -174,12 +174,12 @@ function ForPort() {
                 <div className='md:w-3/4 m-auto  mt-4   h-auto w-full'>
                     <motion.div
                         initial={{
-                            scale: '0%',
+
                             opacity: '0%'
                         }}
                         transition={{ duration: 1, delay: 1 }}
                         animate={{
-                            scale: '100%',
+
                             opacity: '100%'
                         }}
                         className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 w-auto gap-2 border-black'>
