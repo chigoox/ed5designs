@@ -104,7 +104,7 @@ function ForPort() {
 
     return (
         <div className='h-screen hidescroll relative overflow-y-scroll'>
-            <Button onPress={() => { setShowAbout(!showAbout) }} className='fixed z-[99] p-0 min-w-0 w-12 h-12 rounded-full bottom-8 lg:bottom-4 right-4'><IoInformation /></Button>
+            <Button onPress={() => { setShowAbout(!showAbout) }} className='fixed z-[99] p-0 min-w-0 w-12 h-12 rounded-full bottom-16 lg:bottom-4 right-4'><IoInformation /></Button>
             {showAbout && <div className="fixed center h-3/4 rounded-t-xl w-full z-50 -bottom-1 bg-black">
 
                 <div className='h-[26rem]  w-52 overflow-hidden   mb-2'>
