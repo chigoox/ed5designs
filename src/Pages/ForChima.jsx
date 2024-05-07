@@ -18,15 +18,13 @@ function ForChima() {
 
 
     return (
-        <div className=' h-screen relative w-screen overflow-y-scroll'>
+        <div className=' h-screen  bg-black relative w-screen overflow-y-scroll overflow-hidden'>
             <nav className='w-full absolute top-0 left-0  h-12 bg-opacity-0 hover:bg-opacity-100 trans-slow bg-red-500'>
 
             </nav>
-            <div className='h-screen bg-black w-full'>
-                <Carousel3D />
+            <h1 className=' text-cneter font-extrabold text-6xl lg:text-9xl'>TRIBAL ART</h1>
+            <Carous>
 
-
-            </div>
             <div className="grid  m-auto items-center ">
                 <div className='my-4 m-auto md:mx-3 lg:mx-4 xl:mx-5 border-2  bg-white h-[30rem] w-[98%] md:w-[20rem] lg:w-[25rem] grid-sizer  grid-item'></div>
                 <div className='my-4 m-auto md:mx-3 lg:mx-4 xl:mx-5 border-2  bg-red-900 h-[50rem] w-[98%] md:w-[20rem] lg:w-[25rem] grid-sizer  grid-item'></div>

@@ -124,7 +124,7 @@ function ForPort() {
                 </div>
             </div>}
 
-            {showAllLinks && <div className='h-auto  z-[99] w-screen bg-black  absolute  top-[30%] center'>
+            {showAllLinks && <div className='h-auto  z-[99] w-screen bg-black  fixed  top-[30%] center'>
                 <div className=' max-h-screen min-h-32 h-auto p-8 w-screen bg-black'>
                     <Button className='w-full bg-black text-white' onPress={() => { toggleAllLinks() }}><IoClose size={32} /></Button>
                     <div className='flex flex-col md:flex-row items-center justify-center  overflow-hidden gap-2 w-full'>

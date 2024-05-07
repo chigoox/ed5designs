@@ -24,6 +24,8 @@ export function disableScroll(enable = true, name = "scroll-able") {
 
 export const getRand = (max = 99999) => { return Math.floor(Math.random() * max) + 1; }
 
+
+//random number and text of size n
 export function getRandTN(size = 7) {
     const result = Math.random().toString(36).substring(2, size < 7 ? 7 : size);
     return result;
