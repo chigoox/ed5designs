@@ -74,7 +74,7 @@ function ForPort() {
     const featuredItems = [
         new FeaturedItem('VoidApps', 'https://voidappx.netlify.app/', ['React', 'Stripe', 'FireBase', 'TailWind'], 'My personal website with my services'),
         new FeaturedItem('Digits', 'https://iinvesta.vercel.app/', ['Unit Bank API', 'Firebase', 'Tailwind', 'NextJX/React-Native'], 'Social Media Banking App'),
-        new FeaturedItem('AfroSmoke', 'https://afrosmoke.vercel.app/', ['React', 'Stripe', 'MongoDB', 'TailWind'], 'E-commerce Store'),
+        new FeaturedItem('StillTheDubb', 'https://stillthedubb.com/', ['React', 'Stripe', 'MongoDB', 'TailWind'], 'E-commerce/ delivery '),
     ]
 
     const otherItems = [
